@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111001111" textdirection="ltr" device="true" fontscale="108" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111001111" font="Open Sans" controllayout="npnxnanbsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="pxabnsnfns11111001111" font="Open Sans" controllayout="pxabnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="npxnabnsnfns11111001111" font="Open Sans" controllayout="npxnabnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="npnxnanbnsnfns11111001111" font="Open Sans" controllayout="npnxnanbnsnfns11111001111" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+    <layout name="pxabnsnfns11111001110" font="Open Sans" controllayout="pxabnsnfns11111001110" colorscheme="pxabnsnfns11111001111" string_table="pxabnsnfns11111001111" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="KHỞI NGHĨA HAI BÀ TRƯNG" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="1024" />
+                  <property name="height" value="1024" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/6YeGpnGeoS8.jpg" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="right" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="customlink" value="true" group="linkright">
+                <properties>
+                  <property name="title" value="LINK NỘP BÀI" />
+                  <property name="data" value="6UWyuaRLgpG" />
+                  <property name="ignoreSlideLock" value="true" />
+                </properties>
+              </listitem>
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="search" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111001111">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111001110">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="true" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns11111001111">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E6F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74A4DE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8CBCE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8DBEE5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D2ED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xACCFED" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EEF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0EDF6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5189D8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA0C8E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x92C0E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFCFDFE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x125EAC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8ABAE1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7AA9D2" alpha="100" stop="0" />
+                <color rgb="0xE7F1FA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D3EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC9DFF1" alpha="100" stop="0" />
+                <color rgb="0x75A5D0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x5A8BB9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB2D1E9" alpha="100" stop="0" />
+                <color rgb="0x9AC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA8CAE7" alpha="100" stop="0" />
+                <color rgb="0x91BEE0" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1EEF8" alpha="100" stop="0" />
+                <color rgb="0xE1EEF8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xB1D0E9" alpha="100" stop="0" />
+                <color rgb="0xB8D4EB" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x95C2E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFE3F4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1D1EA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x336AA3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6DA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2EEF8" alpha="100" stop="0" />
+                <color rgb="0xABCCE7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB5D2EA" alpha="100" stop="0" />
+                <color rgb="0xD8E8F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD8E8F5" alpha="100" stop="0" />
+                <color rgb="0xB4D2EA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5C9E7" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0B5295" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x79A9D2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7CCEB" alpha="100" stop="0" />
+                <color rgb="0x8CBCE5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD6E9F8" alpha="100" stop="0" />
+                <color rgb="0xD6E9F8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD1E3F2" alpha="100" stop="0" />
+                <color rgb="0x9BC3E3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6CA1CE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0D0E9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA3C8E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDEEBF7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x9EC6E5" alpha="100" stop="0" />
+                <color rgb="0xA8CAE7" alpha="100" stop="128" />
+                <color rgb="0x9EC6E5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E0EC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns11111001111">
+      <string id="acc_active">hoạt động</string>
+      <string id="check_include">Chọn để bao gồm</string>
+      <string id="clear">Xóa và quay lại Trình đơn</string>
+      <string id="close">Đóng</string>
+      <string id="acc_closed_captions">Phụ đề chi tiết. Ấn phím cách để bật và tắt phụ đề.</string>
+      <string id="continue">Tiếp tục</string>
+      <string id="continueresponsive">Tiếp tục</string>
+      <string id="exit">Thoát</string>
+      <string id="filter">Bộ lọc</string>
+      <string id="finish">HOÀN TẤT</string>
+      <string id="acc_finish">hoàn tất</string>
+      <string id="definition">Định nghĩa</string>
+      <string id="acc_definition">định nghĩa</string>
+      <string id="glossary">Chú giải thuật ngữ</string>
+      <string id="terms">Cụm từ</string>
+      <string id="outline">Mục lục</string>
+      <string id="disabled_orientation">Vui lòng xoay thiết bị của bạn</string>
+      <string id="next">TIẾP THEO</string>
+      <string id="acc_next">tiếp theo</string>
+      <string id="transcript_chk">Ghi chú</string>
+      <string id="transcript">Ghi chú</string>
+      <string id="bio">Sinh học</string>
+      <string id="more_info">Thông tin thêm</string>
+      <string id="closed_captions">Phụ đề</string>
+      <string id="acc_pause">tạm dừng</string>
+      <string id="acc_play">phát</string>
+      <string id="send_an_email">Gửi email</string>
+      <string id="prev">TRƯỚC</string>
+      <string id="acc_previous">trước</string>
+      <string id="question_list">Danh sách Câu hỏi</string>
+      <string id="acc_replay">phát lại</string>
+      <string id="resources">Tài nguyên</string>
+      <string id="acc_resources">tài nguyên</string>
+      <string id="restart">Bắt đầu lại</string>
+      <string id="resume">Tiếp tục lại</string>
+      <string id="search">Đang tìm kiếm…</string>
+      <string id="acc_search_input">tìm kiếm</string>
+      <string id="search_in">Tìm kiếm trong:</string>
+      <string id="search_results">Kết quả Tìm kiếm</string>
+      <string id="acc_skipnavigation">Bỏ qua Điều hướng. Nhấn vào enter để quay lại trang trình chiếu.</string>
+      <string id="slide_text_chk">Văn bản Bản chiếu</string>
+      <string id="submitall">GỬI TẤT CẢ</string>
+      <string id="acc_submitall">gửi tất cả</string>
+      <string id="submit">GỬI</string>
+      <string id="acc_submit">gửi</string>
+      <string id="acc_volume">âm lượng</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6G9AZbMBRoE" displaytext="hai ba trung" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6G9AZbMBRoE.6KhbAJGkozm" displaytext="1. Thông tin chung" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6MpxXgRxhBA" displaytext="2. Lời mở đầu" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6qBBtObhH3h" displaytext="3. Giới thiệu" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5Zm3diVHeYT" displaytext="4. Bài hát khỏi động " expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.60grZ2HXhtQ" displaytext="5. Câu hỏi vào bài" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6SvZVbMzeYT" displaytext="6. Giới thiệu bài" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6FKl13Vtn2P" displaytext="7. Mục tiêu" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6RYd4z6TUb8" displaytext="8. Tiến trình tiết học" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.67teI1zVhwZ" displaytext="9. Một số lưu ý" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6dKSeVVphIH" displaytext="10. Hoạt động 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6MH4iSoPXw5" displaytext="11. Video nguyên nhân" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5yUqAoNJbhG" displaytext="12. Câu hỏi 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6811xUEdlNp" displaytext="13. Câu hỏi 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5sN2Vajzthe" displaytext="14. Đôi nét về Hai Bà Trưng" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.66op4xM0Cne" displaytext="15. Câu hỏi 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5vUQJWsqErH" displaytext="16. Câu hỏi 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5fl15QnUAKq" displaytext="17. Chốt hoạt động 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6Yux5d4GE4K" displaytext="18. Hoạt động 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5idQ69cPaaM" displaytext="19. Video diễn biến" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6UL7ncR2RMU" displaytext="20. Mở rộng" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5gzwphGFaOW" displaytext="21. Câu hỏi 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6QNnZttOJsP" displaytext="22. Câu hỏi 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6mojFZthCp7" displaytext="23. Câu hỏi 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5ln935VwxRC" displaytext="24. Chốt hoạt động 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6Dr1nIsqb9K" displaytext="25. Hoạt động 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5hDleDt66xn" displaytext="26. Video lòng biết ơn" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6GifkxBx1yp" displaytext="27. Câu hỏi 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5l9RK2VB507" displaytext="28. Câu hỏi 9" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5ZV8mR8C2xr" displaytext="29. Chốt hoạt động 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.62EoVD69Brj" displaytext="30. Video thăm đền Hai Bà Trưng" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6Hk7kexXGTY" displaytext="31. Hoạt động 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.6PVmiz2PzLJ" displaytext="32. Kết thúc bài" expand="false" type="slide" />
+            <slidelink slideid="_player.6G9AZbMBRoE.5njn3PUhd8W" displaytext="33. Tài liệu tham khảo" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+    <search>
+      <slidetext slideid="6G9AZbMBRoE.6KhbAJGkozm" slidebank="false" type="slide">uỷ ban nhân dân huyện thanh oai ngày hội công nghệ thông tin lần thứ 5                                  cuộc thi thiết kế bài giảng e-learning tác giả: đỗ thị hằng nga email: ngagvht@gmail.com      sđt:0776322799 trường tiểu học cao viên i-thanh oai-hà nội                tháng 11/2020 </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5Zm3diVHeYT" slidebank="false" type="slide">bai hat nhac su oai hung cua võ ha trâm </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.60grZ2HXhtQ" slidebank="false" type="slide">a. bà triệu a. bà triệu a. bà triệu a. bà triệu a. bà triệu a. bà triệu b. lý bí b. lý bí b. lý bí b. lý bí b. lý bí b. lý bí c. triệu quang phục c. triệu quang phục c. triệu quang phục c. triệu quang phục c. triệu quang phục c. triệu quang phục d. hai bà trưng d. hai bà trưng d. hai bà trưng d. hai bà trưng d. hai bà trưng d. hai bà trưng e. mai thúc loan e. mai thúc loan e. mai thúc loan e. mai thúc loan e. mai thúc loan e. mai thúc loan bài hát ca ngợi ai ?  </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6SvZVbMzeYT" slidebank="false" type="slide">khởi nghĩa hai bà trưng </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6FKl13Vtn2P" slidebank="false" type="slide">mục tiêu  bài học nguyên nhân cuộc khởi nghĩa diễn biến cuộc khởi nghĩa kết quả,  ý nghĩa cuộc  khởi nghĩa tường thuật  diễn biến cuộc  khởi nghĩa thêm yêu lịch sử dân tộc. </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6RYd4z6TUb8" slidebank="false" type="slide">4 1 2 3 hoạt động 1: khởi động - tìm hiểu đôi nét về hai bà trưng. - nguyên nhân của cuộc khởi nghĩa. hoạt động 2 : khám phá - tìm hiểu về thời gian, địa điểm, diễn biến của cuộc khởi nghĩa. - kết quả và ý nghĩa của cuộc khởi nghĩa. hoạt động 3: ứng dụng - lòng biết ơn và niềm tự hào của nhân dân ta với hai bà trưng. - nêu được những việc làm của mình thể hiện lòng biết ơn đối với hai bà.                hoạt động 4: sáng tạo viết bài chia sẻ cảm nhận của mình sau bài học. tiến trình tiết học </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.67teI1zVhwZ" slidebank="false" type="slide">một số lưu ý khi sử dụng bài giảng </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6dKSeVVphIH" slidebank="false" type="slide">hoạt động 1: khởi động - tìm hiểu đôi nét về hai bà trưng. - nguyên nhân của cuộc khởi nghĩa. các con xem video, kết hợp thông tin tài liệu sgk và hiểu biết của mình để tìm hiểu đôi nét thân thế hai bà, nguyên nhân cuộc khởi nghĩa. </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6MH4iSoPXw5" slidebank="false" type="slide">vi deo nguyen nhan </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5yUqAoNJbhG" slidebank="false" type="slide">câu hỏi 1: hai bà trưng quê ở đâu ? a. châu phong a. châu phong a. châu phong a. châu phong a. châu phong a. châu phong b. hà nội b. hà nội b. hà nội b. hà nội b. hà nội b. hà nội c. hát môn c. hát môn c. hát môn c. hát môn c. hát môn c. hát môn d. mê linh d. mê linh d. mê linh d. mê linh d. mê linh d. mê linh </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6811xUEdlNp" slidebank="false" type="slide">câu hỏi 2: nêu hiểu biết của em về hai bà trưng ? a. hai bà là người có tài, yêu nước, xinh đẹp a. hai bà là người có tài, yêu nước, xinh đẹp a. hai bà là người có tài, yêu nước, xinh đẹp a. hai bà là người có tài, yêu nước, xinh đẹp a. hai bà là người có tài, yêu nước, xinh đẹp a. hai bà là người có tài, yêu nước, xinh đẹp b. hai bà tên thật là trưng trắc và trưng nhị b. hai bà tên thật là trưng trắc và trưng nhị b. hai bà tên thật là trưng trắc và trưng nhị b. hai bà tên thật là trưng trắc và trưng nhị b. hai bà tên thật là trưng trắc và trưng nhị b. hai bà tên thật là trưng trắc và trưng nhị c. hai bà là con gái bà man thiện, dòng dõi lạc tướng c. hai bà là con gái bà man thiện, dòng dõi lạc tướng c. hai bà là con gái bà man thiện, dòng dõi lạc tướng c. hai bà là con gái bà man thiện, dòng dõi lạc tướng c. hai bà là con gái bà man thiện, dòng dõi lạc tướng c. hai bà là con gái bà man thiện, dòng dõi lạc tướng d. cả 3 ý trên đều đúng d. cả 3 ý trên đều đúng d. cả 3 ý trên đều đúng d. cả 3 ý trên đều đúng d. cả 3 ý trên đều đúng d. cả 3 ý trên đều đúng </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5sN2Vajzthe" slidebank="false" type="slide">- hai bà quê ở châu phong, thuận thành, bắc ninh.   - hai bà là dòng dõi lạc tướng thời hùng vương . .  - hai bà là con gái bà man thiện .   - hai bà trưng là hai chị em   (sinh vào tháng 08 năm giáp tuất - năm 14 sau công nguyên ) .  - bà trưng trắc có chồng là thi sách . </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.66op4xM0Cne" slidebank="false" type="slide">câu hỏi 3:  vì sao  hai bà trưng  phất cờ khởi nghĩa ? a. vì có mối thù nhà với thái thú tô định a. vì có mối thù nhà với thái thú tô định a. vì có mối thù nhà với thái thú tô định a. vì có mối thù nhà với thái thú tô định a. vì có mối thù nhà với thái thú tô định a. vì có mối thù nhà với thái thú tô định b. vì uất ức trước cảnh mất nước b. vì uất ức trước cảnh mất nước b. vì uất ức trước cảnh mất nước b. vì uất ức trước cảnh mất nước b. vì uất ức trước cảnh mất nước b. vì uất ức trước cảnh mất nước c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương c. vì muốn lật đổ nhà hán đô hộ để       xưng  vương d. vì lòng căm thù giặc d. vì lòng căm thù giặc d. vì lòng căm thù giặc d. vì lòng căm thù giặc d. vì lòng căm thù giặc d. vì lòng căm thù giặc e. vì thương dân bị áp bức bóc lột e. vì thương dân bị áp bức bóc lột e. vì thương dân bị áp bức bóc lột e. vì thương dân bị áp bức bóc lột e. vì thương dân bị áp bức bóc lột e. vì thương dân bị áp bức bóc lột </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5vUQJWsqErH" slidebank="false" type="slide">câu 4: em hãy nối cụm từ thích hợp ở cột a với cột b để được ý đúng. trưng trắc cùng chồng là thi sách liên kết với các thủ lĩnh khác cùng nổi dậy chính lúc đó, thi sách bị tô định bắt và giết hại hai bà trưng càng quyết tâm khởi nghĩa đền nợ nước trả thù nhà </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6Yux5d4GE4K" slidebank="false" type="slide">hoạt động 2 : khám phá - tìm hiểu về thời gian, địa điểm, diễn biến của cuộc khởi nghĩa. - kết quả và ý nghĩa của cuộc khởi nghĩa. các con hãy xem video, kết hợp thông tin tài liệu và hiểu biết của mình để tìm hiểu thời gian, địa điểm, diễn biến, kết quả, ý nghĩa của cuộc khởi nghĩa. sau đó hoàn thành bài tập tương tác. </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5idQ69cPaaM" slidebank="false" type="slide">video dien bien </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5gzwphGFaOW" slidebank="false" type="slide">đúng đúng đúng đúng đúng đúng sai sai sai sai sai sai câu hỏi 5: hai bà trưng phất cờ khởi nghĩa chống quân xâm lược nhà hán vào năm 40 ở hát môn đúng hay sai? </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6QNnZttOJsP" slidebank="false" type="slide">câu hỏi 6: em hãy sắp xếp các câu sau theo thứ tự đúng để hoàn thành diễn biến của cuộc khởi nghĩa. hai bà trưng phất cờ khởi nghĩa, nghĩa quân nhanh chóng làm chủ mê linh. nghĩa quân tiến xuống đánh chiếm cổ loa, rồi từ cổ loa tấn công luy lâu, trung tâm của chính quyền đô hộ. mùa xuân năm 40, tại cửa sông hát.   bị đòn bất ngờ, quân hán không dám chống cự, bỏ hết của cải, vũ khí, lo chạy thoát thân. tô định sợ hãi đã cắt tóc, cạo râu, mặc giả thường dân trốn về trung quốc.  </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6mojFZthCp7" slidebank="false" type="slide">câu hỏi 7: vì sao khởi nghĩa hai bà trưng giành thắng lợi? a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy a. quân giặc hèn nhát, thấy voi ra trận vội vàng bỏ chạy b. tinh thần yêu nước của nhân dân ta b. tinh thần yêu nước của nhân dân ta b. tinh thần yêu nước của nhân dân ta b. tinh thần yêu nước của nhân dân ta b. tinh thần yêu nước của nhân dân ta b. tinh thần yêu nước của nhân dân ta c. được nhân dân ủng hộ c. được nhân dân ủng hộ c. được nhân dân ủng hộ c. được nhân dân ủng hộ c. được nhân dân ủng hộ c. được nhân dân ủng hộ d. tài chỉ huy của hai bà trưng d. tài chỉ huy của hai bà trưng d. tài chỉ huy của hai bà trưng d. tài chỉ huy của hai bà trưng d. tài chỉ huy của hai bà trưng d. tài chỉ huy của hai bà trưng e. sử dụng vũ khí quân sự hiện đại e. sử dụng vũ khí quân sự hiện đại e. sử dụng vũ khí quân sự hiện đại e. sử dụng vũ khí quân sự hiện đại e. sử dụng vũ khí quân sự hiện đại e. sử dụng vũ khí quân sự hiện đại </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6Dr1nIsqb9K" slidebank="false" type="slide">hoạt động 3: liên hệ - lòng biết ơn và niềm tự hào của nhân dân ta với hai bà trưng. - nêu được những việc làm của mình thể hiện lòng biết ơn đó. </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5hDleDt66xn" slidebank="false" type="slide">video lien he </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6GifkxBx1yp" slidebank="false" type="slide">câu hỏi 8: lấy tên hai bà trưng để đặt tên phố,  tên trường học để làm gì? a. nhắc nhở học sinh nhớ đến hai bà a. nhắc nhở học sinh nhớ đến hai bà a. nhắc nhở học sinh nhớ đến hai bà a. nhắc nhở học sinh nhớ đến hai bà a. nhắc nhở học sinh nhớ đến hai bà a. nhắc nhở học sinh nhớ đến hai bà b. giáo dục tinh thần yêu nước b. giáo dục tinh thần yêu nước b. giáo dục tinh thần yêu nước b. giáo dục tinh thần yêu nước b. giáo dục tinh thần yêu nước b. giáo dục tinh thần yêu nước c. giáo dục ý chí kiên cường c. giáo dục ý chí kiên cường c. giáo dục ý chí kiên cường c. giáo dục ý chí kiên cường c. giáo dục ý chí kiên cường c. giáo dục ý chí kiên cường d. tất cả các ý trên đều đúng d. tất cả các ý trên đều đúng d. tất cả các ý trên đều đúng d. tất cả các ý trên đều đúng d. tất cả các ý trên đều đúng d. tất cả các ý trên đều đúng </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5l9RK2VB507" slidebank="false" type="slide">câu hỏi 9: để tỏ lòng biết ơn và tự hào đối với hai bà trưng con cần phải làm gì? a. chăm ngoan, học giỏi, nghe lời thầy cô giáo a. chăm ngoan, học giỏi, nghe lời thầy cô giáo a. chăm ngoan, học giỏi, nghe lời thầy cô giáo a. chăm ngoan, học giỏi, nghe lời thầy cô giáo a. chăm ngoan, học giỏi, nghe lời thầy cô giáo a. chăm ngoan, học giỏi, nghe lời thầy cô giáo b. giữ trật tự khi đến thăm đền hai bà trưng b. giữ trật tự khi đến thăm đền hai bà trưng b. giữ trật tự khi đến thăm đền hai bà trưng b. giữ trật tự khi đến thăm đền hai bà trưng b. giữ trật tự khi đến thăm đền hai bà trưng b. giữ trật tự khi đến thăm đền hai bà trưng c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà c. nhắc nhở bạn bè, người thân luôn nhớ đến công lao của hai bà d. không cần làm gì d. không cần làm gì d. không cần làm gì d. không cần làm gì d. không cần làm gì d. không cần làm gì </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6Hk7kexXGTY" slidebank="false" type="slide">hoạt động 4: sáng tạo viết bài chia sẻ cảm nhận  của mình  sau bài học. </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.6PVmiz2PzLJ" slidebank="false" type="slide">link nộp bài link nộp bài link nộp bài link nộp bài link nộp bài link nộp bài </slidetext>
+      <slidetext slideid="6G9AZbMBRoE.5njn3PUhd8W" slidebank="false" type="slide">tài liệu tham khảo các phần mềm sử dụng - microsoft powerpoint 2016 - articulate, coreidraw, fomat factory - camtasia 2020, total video converter, adobe after effects, adobe photoshops. 2. video hoạt hình tham khảo trên youtobe, google.com.vn để sưu tầm tư liệu hình ảnh </slidetext>
+    </search>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
